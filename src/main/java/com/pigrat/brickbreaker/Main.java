@@ -1,16 +1,17 @@
-package com.pigrat.brickbreaker.game;
+package com.pigrat.brickbreaker;
 
 import javax.swing.JFrame;
 
 public class Main {
     public static void main(String[] args) {
         JFrame obj = new JFrame();
-        GamePlay gamePlay = new GamePlay();
+        GamePlay gameplay = new GamePlay();
         obj.setBounds(10,10,700,600);
-        obj.setTitle("Brick Breaker");
+        obj.setTitle("BrickBreaker");
         obj.setResizable(false);
         obj.setVisible(true);
         obj.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        obj.add(gamePlay);
+        obj.add(gameplay);
     }
+
 }
