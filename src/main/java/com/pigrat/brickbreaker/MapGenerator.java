@@ -5,7 +5,7 @@ import java.awt.Color;
 import java.awt.Graphics2D;
 
 public class MapGenerator {
-    public int map[][];
+    public int[][] map;
     public int bricksWidth;
     public int bricksHeight;
     public MapGenerator(int row , int col){
